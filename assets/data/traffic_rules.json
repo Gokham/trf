@@ -1,0 +1,99 @@
+{
+  "sourceMeta": {
+    "pdfName": "Kullanici_PDF_Ozeti",
+    "mergedAt": "2026-02-21",
+    "notes": "Kullanıcının paylaştığı ceza tablosu, 2918 sayılı Kanun ve Karayolları Trafik Yönetmeliği başlıkları ile birleştirilmiştir."
+  },
+  "laws": [
+    {
+      "code": "14/1-a",
+      "title": "Yola tehlike oluşturacak cisim bırakmak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 10,
+      "details": "Karayolu yapısı üzerine trafiği tehlikeye sokacak cisim bırakılması yasaktır."
+    },
+    {
+      "code": "16",
+      "title": "İzinsiz levha/ışık vb. koymak",
+      "fine": "58.945 TL",
+      "discountedFine": "44.208,75 TL",
+      "points": 0,
+      "details": "Trafik işaretlerini yanıltacak levha, ışık, direk vb. bulundurulamaz."
+    },
+    {
+      "code": "21/1",
+      "title": "Tescil belgesi/plakası olmadan trafiğe çıkmak",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 10,
+      "details": "Eksiklik giderilinceye kadar araç trafikten men edilir."
+    },
+    {
+      "code": "23/4",
+      "title": "Tescilli aracı plakasız kullanmak",
+      "fine": "19.716 TL",
+      "discountedFine": "14.787 TL",
+      "points": 20,
+      "details": "Tescil plakası takılıncaya kadar trafikten men."
+    },
+    {
+      "code": "26/2",
+      "title": "Yetkisiz ışıklı/sesli uyarı cihazı takmak",
+      "fine": "173.392 TL (1. ihlal)",
+      "discountedFine": "130.044 TL",
+      "points": 0,
+      "details": "Sürücü belgesi 30 gün geri alınır, cihaz söktürülür ve el konulur."
+    },
+    {
+      "code": "36/3-a",
+      "title": "Sürücü belgesiz araç kullanmak",
+      "fine": "23.437 TL",
+      "discountedFine": "17.577,75 TL",
+      "points": 0,
+      "details": "Kullanan ve kullandıran hakkında işlem yapılır."
+    },
+    {
+      "code": "47/1-b",
+      "title": "Kırmızı ışık ihlali",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Yıl içinde tekrarında sürücü belgesi geçici geri alınır."
+    },
+    {
+      "code": "48/8",
+      "title": "Uyuşturucu/uyarıcı etkisinde araç kullanmak",
+      "fine": "60.036 TL",
+      "discountedFine": "45.027 TL",
+      "points": 20,
+      "details": "Sürücü belgesi 5 yıl geri alınır."
+    },
+    {
+      "code": "51/2-c",
+      "title": "Hız sınırını %50'den fazla aşmak",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 15,
+      "details": "Tekrarlı ihlallerde sürücü belgesi geri alınabilir."
+    },
+    {
+      "code": "74/b",
+      "title": "Yaya geçidinde ilk geçiş hakkı vermemek",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 20,
+      "details": "Işıksız veya işaretle belirlenen yaya/okul geçidinde geçiş hakkı ihlali."
+    }
+  ],
+  "officialLinks": [
+    {
+      "name": "2918 Sayılı Karayolları Trafik Kanunu (resmi metin)",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2918.pdf"
+    },
+    {
+      "name": "Karayolları Trafik Yönetmeliği (resmi metin)",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=8182&MevzuatTur=7&MevzuatTertip=5"
+    }
+  ]
+}
