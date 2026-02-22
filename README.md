@@ -24,3 +24,8 @@ flutter run
 ```
 
 > Bu prototipte sesli arama gerçek STT servisine bağlı değildir; demo amaçlıdır.
+
+
+## Başlangıç Rehberi
+
+- GitHub'da görme ve test adımları: `docs/github_ve_test_rehberi.md`
