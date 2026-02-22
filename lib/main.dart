@@ -54,32 +54,57 @@ class _AssistantPageState extends State<AssistantPage> {
     });
   }
 
+  String _normalize(String input) {
+    final map = {
+      'ç': 'c',
+      'ğ': 'g',
+      'ı': 'i',
+      'ö': 'o',
+      'ş': 's',
+      'ü': 'u',
+    };
+    final lower = input.toLowerCase();
+    final sb = StringBuffer();
+    for (final ch in lower.split('')) {
+      sb.write(map[ch] ?? ch);
+    }
+    return sb
+        .toString()
+        .replaceAll(' ', '')
+        .replaceAll('-', '')
+        .replaceAll('/', '')
+        .replaceAll("'", '');
+  }
+
   void _onSearch() {
-    final query = _controller.text.trim().toLowerCase();
+    final query = _normalize(_controller.text.trim());
     if (query.isEmpty) {
       setState(() => _answer = 'Lütfen bir ihlal veya madde numarası girin.');
       return;
     }
 
-    final match = _rules.where((r) {
-      return r.code.toLowerCase().contains(query) ||
-          r.title.toLowerCase().contains(query) ||
-          r.details.toLowerCase().contains(query);
+    final matches = _rules.where((r) {
+      return _normalize(r.code).contains(query) ||
+          _normalize(r.title).contains(query) ||
+          _normalize(r.details).contains(query);
     }).toList();
 
-    if (match.isEmpty) {
+    if (matches.isEmpty) {
       setState(() {
         _answer =
-            'Eşleşme bulunamadı. Örnek sorgu: "47/1-b", "kırmızı ışık", "plakasız".';
+            'Eşleşme bulunamadı. Örnek: "47/1-b", "471b", "kırmızı ışık", "emniyet kemeri".\nToplam kayıt: ${_rules.length}';
       });
       return;
     }
 
-    final rule = match.first;
-    final tutanak = _generateTutanak(rule);
+    final top3 = matches.take(3).toList();
+    final answer = top3.map((rule) {
+      final tutanak = _generateTutanak(rule);
+      return 'Madde ${rule.code} - ${rule.title}\nCeza: ${rule.fine} (İndirimli: ${rule.discountedFine})\nCeza Puanı: ${rule.points}\nAçıklama: ${rule.details}\nÖrnek Tutanak: $tutanak';
+    }).join('\n\n---\n\n');
+
     setState(() {
-      _answer =
-          'Madde ${rule.code} - ${rule.title}\nCeza: ${rule.fine} (İndirimli: ${rule.discountedFine})\nCeza Puanı: ${rule.points}\n\nAçıklama: ${rule.details}\n\nÖrnek Resmi Tutanak Metni:\n$tutanak';
+      _answer = 'Toplam eşleşme: ${matches.length} (ilk 3 gösteriliyor)\n\n$answer';
     });
   }
 
@@ -104,7 +129,7 @@ class _AssistantPageState extends State<AssistantPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TRF Asistan'),
+        title: Text('TRF Asistan (${_rules.length} madde)'),
         centerTitle: true,
       ),
       body: SafeArea(
@@ -116,7 +141,7 @@ class _AssistantPageState extends State<AssistantPage> {
               TextField(
                 controller: _controller,
                 decoration: InputDecoration(
-                  hintText: 'Madde no veya ihlal ara (örn. 47/1-b)',
+                  hintText: 'Madde no veya ihlal ara (örn. 47/1-b, 471b)',
                   filled: true,
                   prefixIcon: const Icon(Icons.search),
                   suffixIcon: IconButton(

@@ -30,3 +30,8 @@ flutter run
 
 - GitHub'da görme ve test adımları: `docs/github_ve_test_rehberi.md`
 - Otomatik kurulum kontrolü: `bash scripts/check_setup.sh`
+
+
+## Arama Kapsamı Notu
+
+- Toplam kayıt sayısı artırıldı; arama artık Türkçe karakter ve madde yazım varyasyonlarına (ör. `47/1-b`, `471b`) daha toleranslıdır.
