@@ -29,3 +29,4 @@ flutter run
 ## Başlangıç Rehberi
 
 - GitHub'da görme ve test adımları: `docs/github_ve_test_rehberi.md`
+- Otomatik kurulum kontrolü: `bash scripts/check_setup.sh`

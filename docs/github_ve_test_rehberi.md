@@ -1,114 +1,108 @@
-# GitHub'da Görme ve Uygulamayı Test Etme Rehberi (Başlangıç Seviyesi)
+# GitHub'da Görme ve Uygulamayı Test Etme Rehberi (Hiç Bilmeyenler İçin)
 
-Bu rehber, **daha önce hiç yazılım kurmamış** birinin bile adım adım ilerleyebilmesi için hazırlandı.
+Tamam kanka, bunu en basit haliyle çözelim. 
+Bu rehberin amacı: **uygulamayı gerçekten açtırmak**.
 
-## 1) Neden GitHub'da göremiyorsun?
+## Sıfırıncı adım (en hızlı yol)
 
-Bu projede yapılan değişiklikler önce yerel git geçmişine commit edilir.
-GitHub'da görünmesi için bu commitlerin GitHub'daki repoya **push** edilmesi gerekir.
+Terminalde proje klasörüne gir ve bunu çalıştır:
 
-> Kısacası: `commit` = bilgisayarda kaydetmek, `push` = GitHub'a göndermek.
+```bash
+bash scripts/check_setup.sh
+```
+
+Bu script sana neyin eksik olduğunu tek tek söyler.
 
 ---
 
-## 2) Önce projeyi kendi GitHub hesabına gönder
+## 1) Neden GitHub'da görünmüyor olabilir?
 
-Aşağıdaki komutları sırayla terminalde çalıştır:
+Çünkü sadece `commit` yapmak yetmez, ayrıca GitHub'a `push` gerekir.
 
+### Kontrol:
 ```bash
 git remote -v
 ```
 
-- Eğer `origin` satırlarında senin GitHub repo adresin görünüyorsa devam et.
-- Görünmüyorsa remote ekle:
-
+`origin` yoksa ekle:
 ```bash
 git remote add origin https://github.com/KULLANICI_ADIN/REPO_ADIN.git
 ```
 
-Sonra branch'i GitHub'a gönder:
-
+Sonra gönder:
 ```bash
 git push -u origin work
 ```
 
-> Eğer `work` branch'i yerine `main` kullanmak istiyorsan:
-
+> `main` istiyorsan:
 ```bash
 git push -u origin HEAD:main
 ```
 
-Push başarılı olunca GitHub sayfasını yenile; dosyaları göreceksin.
-
 ---
 
-## 3) Bilgisayara Flutter kur (Windows/Mac/Linux)
+## 2) Uygulama neden açılmıyor? (en sık 4 sebep)
 
-Projeyi çalıştırmak için Flutter gerekir.
-
-1. Flutter indir: https://docs.flutter.dev/get-started/install
-2. Kurulum bittiğinde terminalde doğrula:
-
+### Sebep A: Flutter kurulu değil
+Kontrol:
 ```bash
 flutter --version
-flutter doctor
 ```
 
-`flutter doctor` eksikleri tek tek yazar (Android Studio, Xcode vb.).
-Eksikleri tamamla.
+Çözüm: Flutter kur
+- https://docs.flutter.dev/get-started/install
 
----
+### Sebep B: PATH ayarı eksik (Flutter kurulu ama komut yok)
+`flutter` komutu bulunamıyorsa PATH'e Flutter `bin` klasörünü ekle.
 
-## 4) Projeyi çalıştırma (ilk test)
-
-Proje klasöründe şunları çalıştır:
-
-```bash
-flutter pub get
-flutter run
-```
-
-- Telefon bağlıysa cihazda açılır.
-- Cihaz yoksa emulator/simulator açman gerekir.
-
----
-
-## 5) Uygulamayı nasıl test edeceksin? (çok basit senaryo)
-
-Uygulama açıldıktan sonra:
-
-1. Ortadaki arama kutusuna `47/1-b` yaz.
-2. `Yapay Zeka Yanıtı Üret` butonuna bas.
-3. Ekranda ceza bilgisi + örnek resmi tutanak metni gelmeli.
-4. Mikrofon ikonuna basınca demo olarak `kırmızı ışık` metni dolmalı.
-
----
-
-## 6) Olası hatalar ve çözüm
-
-### Hata: `flutter: command not found`
-Flutter kurulu değil veya PATH ayarı eksik.
-
-### Hata: cihaz görünmüyor
-Aşağıyı çalıştır:
-
+### Sebep C: Cihaz/emülatör yok
+Kontrol:
 ```bash
 flutter devices
 ```
 
-Telefonu USB hata ayıklama ile bağla veya emulator aç.
+- Liste boşsa: Android Studio'dan emulator aç veya fiziksel telefonu USB ile bağla.
 
-### Hata: paketler inmiyor
-Ağ/proxy engeli olabilir. Farklı ağda tekrar dene.
+### Sebep D: Paketler inmedi
+Kontrol:
+```bash
+flutter pub get
+```
+
+Hata varsa çoğunlukla internet/proxy kaynaklıdır.
 
 ---
 
-## 7) Hızlı kontrol listesi
+## 3) Uygulamayı açma (çalışan komut sırası)
 
-- [ ] GitHub'a push yaptım.
-- [ ] `flutter doctor` temiz/uyarılara göre düzeltildi.
-- [ ] `flutter pub get` başarılı.
-- [ ] `flutter run` ile uygulama açıldı.
-- [ ] `47/1-b` araması sonuç verdi.
+Bu sırayı **aynen** uygula:
 
-Bu adımları tamamladıysan projeyi başarılı şekilde görüp test etmiş olursun.
+```bash
+cd trf
+flutter doctor
+flutter pub get
+flutter run
+```
+
+---
+
+## 4) Açıldıktan sonra test et (1 dakikalık test)
+
+1. Arama kutusuna `47/1-b` yaz.
+2. `Yapay Zeka Yanıtı Üret` butonuna bas.
+3. Ceza + kısa tutanak örneği görmelisin.
+4. Mikrofon ikonuna basınca demo olarak `kırmızı ışık` yazısı dolmalı.
+
+---
+
+## 5) Bana göndermen gerekenler (takılırsan)
+
+Aşağıdaki 3 komutun çıktısını olduğu gibi at, direkt hatayı nokta atışı çözelim:
+
+```bash
+bash scripts/check_setup.sh
+flutter doctor -v
+flutter run -v
+```
+
+> Özellikle son 30-40 satır çok önemli.
