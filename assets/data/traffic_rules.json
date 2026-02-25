@@ -1,0 +1,492 @@
+{
+  "sourceMeta": {
+    "pdfName": "Kullanici_PDF_Ozeti",
+    "mergedAt": "2026-02-22",
+    "notes": "Kullanıcının paylaştığı ceza tablosu genişletilerek 2918 sayılı Kanun ve Yönetmelik referanslarıyla birleştirilmiştir.",
+    "recordCount": 59
+  },
+  "laws": [
+    {
+      "code": "14/1-a",
+      "title": "Yola tehlike oluşturacak cisim bırakmak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 10,
+      "details": "Karayolu yapısı üzerine trafiği tehlikeye sokacak cisim bırakılması yasaktır."
+    },
+    {
+      "code": "14/1-b",
+      "title": "Karayolu yapısı ve trafik işaretlerine zarar vermek",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 10,
+      "details": "Bozukluk/eksiklik derhal giderilir, masraf sorumluya ödetilir."
+    },
+    {
+      "code": "16",
+      "title": "İzinsiz levha/ışık vb. koymak",
+      "fine": "58.945 TL",
+      "discountedFine": "44.208,75 TL",
+      "points": 0,
+      "details": "Trafik işaretlerini yanıltacak levha, ışık, direk vb. bulundurulamaz."
+    },
+    {
+      "code": "17",
+      "title": "Belediye sınırı dışında izinsiz yapı/tesis yapmak",
+      "fine": "58.945 TL",
+      "discountedFine": "44.208,75 TL",
+      "points": 0,
+      "details": "Yol kenarında izin almadan yapı/tesis yapmak yasaktır."
+    },
+    {
+      "code": "18",
+      "title": "Belediye sınırı içinde izinsiz yapı/tesis yapmak",
+      "fine": "58.945 TL",
+      "discountedFine": "44.208,75 TL",
+      "points": 0,
+      "details": "İlgili belediyeden izin olmadan yapı/tesis yapılamaz."
+    },
+    {
+      "code": "20/1-a/1",
+      "title": "İlk tescil başvurusunu süresinde yapmamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 0,
+      "details": "Tescilsiz araç, tescil yapılıncaya kadar trafikten men edilir."
+    },
+    {
+      "code": "21/1",
+      "title": "Tescil belgesi/plakası olmadan trafiğe çıkmak",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 10,
+      "details": "Eksiklik giderilinceye kadar araç trafikten men edilir."
+    },
+    {
+      "code": "21/5",
+      "title": "Hurdaya çıkarılmış aracı kullanmak",
+      "fine": "23.437 TL",
+      "discountedFine": "17.577,75 TL",
+      "points": 0,
+      "details": "Araca el konulur, mülkiyeti kamuya geçirilebilir."
+    },
+    {
+      "code": "23/2-a",
+      "title": "Araç tescil belgesini araçta bulundurmamak",
+      "fine": "1.057 TL",
+      "discountedFine": "792,75 TL",
+      "points": 10,
+      "details": "Araç bilgileri doğrulanıncaya kadar men uygulanabilir."
+    },
+    {
+      "code": "23/2-b",
+      "title": "Plakayı uygun yer dışında takmak",
+      "fine": "1.057 TL",
+      "discountedFine": "792,75 TL",
+      "points": 15,
+      "details": "Plaka uygun yere takılıncaya kadar men uygulanır."
+    },
+    {
+      "code": "23/3-a-1",
+      "title": "Yönetmeliğe aykırı nitelik/ölçüde plaka takmak",
+      "fine": "4.779 TL",
+      "discountedFine": "3.584,25 TL",
+      "points": 20,
+      "details": "Plakayı uygun hale getirmek için süre verilir."
+    },
+    {
+      "code": "23/4",
+      "title": "Tescilli aracı plakasız kullanmak",
+      "fine": "19.716 TL",
+      "discountedFine": "14.787 TL",
+      "points": 20,
+      "details": "Tescil plakası takılıncaya kadar trafikten men."
+    },
+    {
+      "code": "23/5-a",
+      "title": "Başka araca ait plakayı takmak/kullanmak",
+      "fine": "58.104 TL",
+      "discountedFine": "43.578 TL",
+      "points": 20,
+      "details": "Ayrıca TCK 204 kapsamında adli işlem yapılır."
+    },
+    {
+      "code": "23/5-b",
+      "title": "Sahte plaka takmak/kullanmak",
+      "fine": "58.104 TL",
+      "discountedFine": "43.578 TL",
+      "points": 20,
+      "details": "Ayrıca TCK 204 kapsamında adli işlem yapılır."
+    },
+    {
+      "code": "25",
+      "title": "Geçici trafik belgesi/plakası olmadan trafiğe çıkmak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 10,
+      "details": "Eksiklik giderilinceye kadar araç men edilir."
+    },
+    {
+      "code": "26/1",
+      "title": "Zorunlu ayırım işaretlerini bulundurmamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 5,
+      "details": "Eksiklik tamamlanıncaya kadar araç men edilir."
+    },
+    {
+      "code": "26/2",
+      "title": "Yetkisiz ışıklı/sesli uyarı cihazı takmak",
+      "fine": "173.392 TL (1. ihlal)",
+      "discountedFine": "130.044 TL",
+      "points": 0,
+      "details": "Sürücü belgesi geri alınır; cihaz söktürülüp el konulur."
+    },
+    {
+      "code": "30/1-a",
+      "title": "Servis freni/lastik/ışık donanımı eksik-bozuk araç kullanmak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Eksiklik giderilinceye kadar araç men edilir."
+    },
+    {
+      "code": "30/1-b",
+      "title": "Duman/gürültü çıkaran veya tehlike oluşturan eksik araç kullanmak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Eksiklik giderilinceye kadar araç men edilir."
+    },
+    {
+      "code": "31/1-a",
+      "title": "Zorunlu ekipmanları araçta bulundurmamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 10,
+      "details": "Sürücü araç sahibi değilse plaka adına da ceza düzenlenebilir."
+    },
+    {
+      "code": "31/1-b",
+      "title": "Takograf/taksimetre bulundurmamak veya kullanmamak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 20,
+      "details": "Eksiklik giderilinceye kadar araç men edilir."
+    },
+    {
+      "code": "32/1",
+      "title": "Araç üzerindeki değişikliği tescile işletmemek",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 10,
+      "details": "Mevzuata uygun hale getirilinceye kadar men."
+    },
+    {
+      "code": "34/a",
+      "title": "Muayenesiz aracı trafiğe çıkarmak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 10,
+      "details": "Araç trafikten men edilir; muayene için süre verilebilir."
+    },
+    {
+      "code": "34/b",
+      "title": "Muayenesiz araçla tekrar trafiğe çıkmak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 10,
+      "details": "Tekrarda da men uygulanır, çekici ile sevk edilebilir."
+    },
+    {
+      "code": "36/3-a",
+      "title": "Sürücü belgesiz araç kullanmak",
+      "fine": "23.437 TL",
+      "discountedFine": "17.577,75 TL",
+      "points": 0,
+      "details": "Kullanan ve kullandıran hakkında işlem yapılır."
+    },
+    {
+      "code": "39/2",
+      "title": "Belge sınıfına uygun olmayan araç sürmek",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 20,
+      "details": "Sürücü ve kullandıran hakkında işlem yapılır."
+    },
+    {
+      "code": "44/1-b",
+      "title": "Sürücü belgesini yanında bulundurmamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 5,
+      "details": "Yeni kimlikte sürücü bilgisi yüklüyse işlem yapılmayabilir."
+    },
+    {
+      "code": "46/2-f",
+      "title": "Emniyet şeridi/banketi uygunsuz kullanmak",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 0,
+      "details": "Zorunluluk halleri dışında emniyet şeridi kullanılamaz."
+    },
+    {
+      "code": "47/1-a",
+      "title": "Görevli trafik personeli ikazına uymamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Yetkili işaret ve uyarılara uymamak ihlaldir."
+    },
+    {
+      "code": "47/1-b",
+      "title": "Kırmızı ışık ihlali",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Yıl içinde tekrarında sürücü belgesi geçici geri alınır."
+    },
+    {
+      "code": "47/1-c",
+      "title": "Trafik levha/işaretlerine uymamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Levha, cihaz ve yol işaretlemelerine uyulmalıdır."
+    },
+    {
+      "code": "48/5",
+      "title": "Alkollü araç kullanmak (yasal sınır üstü)",
+      "fine": "20.000+ TL (maddeye göre)",
+      "discountedFine": "%25 indirim uygulanır",
+      "points": 20,
+      "details": "Tekrarda sürücü belgesi 6 ay-5 yıl arası geri alınır."
+    },
+    {
+      "code": "48/8",
+      "title": "Uyuşturucu/uyarıcı etkisinde araç kullanmak",
+      "fine": "60.036 TL",
+      "discountedFine": "45.027 TL",
+      "points": 20,
+      "details": "Sürücü belgesi 5 yıl geri alınır."
+    },
+    {
+      "code": "48/9",
+      "title": "Alkol/uyuşturucu ölçümünü reddetmek",
+      "fine": "33.326 TL",
+      "discountedFine": "24.994,50 TL",
+      "points": 20,
+      "details": "Sürücü belgesi 2 yıl geri alınır."
+    },
+    {
+      "code": "51/2-a",
+      "title": "Hız sınırını %10-%30 aşmak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 10,
+      "details": "Yönetmelik hız sınırı ihlali."
+    },
+    {
+      "code": "51/2-b",
+      "title": "Hız sınırını %30-%50 aşmak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 15,
+      "details": "Yönetmelik hız sınırı ihlali."
+    },
+    {
+      "code": "51/2-c",
+      "title": "Hız sınırını %50'den fazla aşmak",
+      "fine": "11.629 TL",
+      "discountedFine": "8.721,75 TL",
+      "points": 15,
+      "details": "Tekrarlı ihlallerde belge geri alma olabilir."
+    },
+    {
+      "code": "53/1-a",
+      "title": "Sağa dönüş kurallarına uymamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Dönüşlerde geçiş kuralları zorunludur."
+    },
+    {
+      "code": "53/1-b",
+      "title": "Sola dönüş kurallarına uymamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Dönüşlerde geçiş kuralları zorunludur."
+    },
+    {
+      "code": "54/1-a",
+      "title": "Geçme kurallarına uymamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Öndeki aracı geçmede kurallara riayet zorunludur."
+    },
+    {
+      "code": "54/1-b",
+      "title": "Geçmenin yasak olduğu yerde geçmek",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Yasak bölgede geçiş ihlalidir."
+    },
+    {
+      "code": "56/1-c",
+      "title": "Yakın takip",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Güvenli takip mesafesi bırakılmalıdır."
+    },
+    {
+      "code": "57/1-a",
+      "title": "Kavşakta geçiş hakkı kuralına uymamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Geçiş hakkı olan araçlara öncelik verilmelidir."
+    },
+    {
+      "code": "59",
+      "title": "Yerleşim yeri dışında zorunlu değilken park/duraklama",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 20,
+      "details": "Zorunlu hallerde gerekli tedbirler alınmalıdır."
+    },
+    {
+      "code": "60/1-c",
+      "title": "Yaya/okul geçidinde duraklamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 10,
+      "details": "Geçitlerde duraklama yasaktır."
+    },
+    {
+      "code": "61/1-o",
+      "title": "Engelli park yerine park etmek",
+      "fine": "2.492 TL",
+      "discountedFine": "1.869 TL",
+      "points": 10,
+      "details": "Araç kaldırılabilir, masraf ödenmeden teslim edilmez."
+    },
+    {
+      "code": "63",
+      "title": "Uygun olmayan ışık donanımı bulundurmak",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 10,
+      "details": "Uygun olmayan donanım söktürülür."
+    },
+    {
+      "code": "65/A",
+      "title": "Zorunlu dönemde kış lastiği kullanmamak",
+      "fine": "7.348 TL",
+      "discountedFine": "5.511 TL",
+      "points": 10,
+      "details": "En yakın yerleşime kadar izin verilebilir."
+    },
+    {
+      "code": "67/1-d",
+      "title": "Drift yapmak (ani yön değiştirme/kendi etrafında döndürme)",
+      "fine": "58.217 TL",
+      "discountedFine": "43.662,75 TL",
+      "points": 0,
+      "details": "Belge geri alma/iptal ve araç men yaptırımı uygulanır."
+    },
+    {
+      "code": "68/1-b",
+      "title": "Yaya geçidi varken başka yerden geçmek",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 0,
+      "details": "Yayalar geçit veya kavşak noktalarını kullanmalıdır."
+    },
+    {
+      "code": "73/c",
+      "title": "Seyir halinde telefonu elde kullanmak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 10,
+      "details": "Telefonun elde kullanımı yasaktır."
+    },
+    {
+      "code": "74/b",
+      "title": "Yaya/okul geçidinde yayaya yol vermemek",
+      "fine": "5.662 TL",
+      "discountedFine": "4.246,50 TL",
+      "points": 20,
+      "details": "Geçide yaklaşırken yavaşlayıp ilk geçiş hakkı verilmelidir."
+    },
+    {
+      "code": "75",
+      "title": "Okul taşıtı DUR işaretine uymamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 15,
+      "details": "Okul taşıtı kurallarına uyulmaması ihlaldir."
+    },
+    {
+      "code": "76/1-a",
+      "title": "Demiryolu geçidinde DUR talimatına uymamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Bariyer/ışık uyarısına rağmen geçide girilemez."
+    },
+    {
+      "code": "78/1-a",
+      "title": "Emniyet kemeri/çocuk bağlama sistemi kullanmamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 15,
+      "details": "Koruyucu tertibat takılmadan seyire izin verilmez."
+    },
+    {
+      "code": "81/1-a",
+      "title": "Kazaya karışıp durmamak ve tedbir almamak",
+      "fine": "2.719 TL",
+      "discountedFine": "2.039,25 TL",
+      "points": 20,
+      "details": "Kaza mahallinde trafik güvenliği tedbirleri alınmalıdır."
+    },
+    {
+      "code": "91",
+      "title": "Zorunlu trafik sigortası yaptırmamak",
+      "fine": "1.246 TL",
+      "discountedFine": "934,50 TL",
+      "points": 0,
+      "details": "Eksiklik giderilinceye kadar araç men edilir."
+    },
+    {
+      "code": "118",
+      "title": "1 yılda 100 ceza puanına ulaşmak",
+      "fine": "Belge geri alma",
+      "discountedFine": "-",
+      "points": 0,
+      "details": "1. kez 2 ay, 2. kez 4 ay, 3. kez iptal."
+    },
+    {
+      "code": "Ek-2/3-a",
+      "title": "Belediye izni olmadan yolcu taşımak",
+      "fine": "58.217 TL",
+      "discountedFine": "43.662,75 TL",
+      "points": 0,
+      "details": "Tekrarda ceza artar ve araç 60 gün men edilir."
+    }
+  ],
+  "officialLinks": [
+    {
+      "name": "2918 Sayılı Karayolları Trafik Kanunu (resmi metin)",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2918.pdf"
+    },
+    {
+      "name": "Karayolları Trafik Yönetmeliği (resmi metin)",
+      "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=8182&MevzuatTur=7&MevzuatTertip=5"
+    }
+  ]
+}
